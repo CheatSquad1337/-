@@ -19,7 +19,7 @@ const presetColors = {
         blue: "#0084ff",
         darkBlue: "#0800ff",
         darkPurple: "#2f0080",
-        darkRed: "#800000"
+        darkRed: "#800000",
     }
 
 const clients = [
@@ -27,7 +27,7 @@ const clients = [
         id: 1,
         name: "Aqua",
         price: "15€",
-        tags: ["Blatant"],
+        tags: ["Blatant", "Paid"],
         game: "Minecraft",
         description: "Holy Moly its Aqua A Realy nice Blatant/legit client and it get rigt now a recode",
         cover: "https://i.imgur.com/hBsjZHy.jpeg",
@@ -45,11 +45,11 @@ const clients = [
         price: "Free",
         tags: ["Free", "Internal"],
         game: "Other Games",
-        description: "Funtions :ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ Aimbot, Magic Bullet, Infinit Ammoy, Infinity Stamina  ㅤㅤㅤㅤㅤㅤㅤESP : Player Box, Skeleton, Healthbar, show player distance,ㅤㅤ player name, player Tracers",
+        description: "Last update : 2.10.2024ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ Funtions :ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ Aimbot, Magic Bullet, Infinit Ammoy, Infinity Stamina  ㅤㅤㅤㅤㅤㅤㅤESP : Player Box, Skeleton, Healthbar, show player distance,ㅤㅤ player name, player Tracers",
         cover: "https://i.imgur.com/7xa1LJU.png",
         screenshots: ["https://i.imgur.com/8qwdwnx.jpeg", "https://i.imgur.com/4PSVF5i.jpeg"],
         downloadLink: "https://lootdest.org/s?abc853f3",
-        otherButtons:[["https://sourceforge.net/projects/systeminformer/", "System Informer (Process Hacker 2)"]],
+        otherButtons:[["https://sourceforge.net/projects/processhacker/", "Process Hacker 2"]],
         colors: {
             text: "#000000", // Text
             accent: "#36fff5", // Accent
