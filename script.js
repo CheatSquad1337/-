@@ -48,7 +48,7 @@ const clients = [
         description: "Last update : 2.10.2024ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ Funtions :ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ Aimbot, Magic Bullet, Infinit Ammoy, Infinity Stamina  ㅤㅤㅤㅤㅤㅤㅤESP : Player Box, Skeleton, Healthbar, show player distance,ㅤㅤ player name, player Tracers",
         cover: "https://i.imgur.com/7xa1LJU.png",
         screenshots: ["https://i.imgur.com/8qwdwnx.jpeg", "https://i.imgur.com/4PSVF5i.jpeg"],
-        downloadLink: "https://lootdest.org/s?abc853f3",
+        downloadLink: "https://lootdest.org/s?8b4dadc5",
         otherButtons:[["https://sourceforge.net/projects/processhacker/", "Process Hacker 2"]],
         colors: {
             text: "#000000", // Text
