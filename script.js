@@ -8,6 +8,7 @@ const clients = [
         price: "15€",
         tags: ["Blatant", "Paid"],
         game: "Minecraft",
+        update: "08.10.24",
         description: "Holy Moly its Aqua A Realy nice Blatant/legit client and it get rigt now a recode",
         cover: "https://i.imgur.com/hBsjZHy.jpeg",
         screenshots: ["https://i.imgur.com/SpAxx1M.png"],
@@ -24,6 +25,7 @@ const clients = [
         price: "Free",
         tags: ["Free", "Internal"],
         game: "Other Games",
+        update: "08.10.24",
         description: "Last update : 2.10.2024ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ Funtions :ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ Aimbot, Magic Bullet, Infinit Ammoy, Infinity Stamina  ㅤㅤㅤㅤㅤㅤㅤESP : Player Box, Skeleton, Healthbar, show player distance,ㅤㅤ player name, player Tracers",
         cover: "https://i.imgur.com/7xa1LJU.png",
         screenshots: ["https://i.imgur.com/8qwdwnx.jpeg", "https://i.imgur.com/4PSVF5i.jpeg"],
@@ -41,6 +43,7 @@ const clients = [
         price: "Free",
         tags: ["Free"],
         game: "Minecraft",
+        update: "08.10.24",
         description: "LiquidBounce is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, LiquidBounce is completely free, open source and compatible with Fabric.", // Stolen from official LiquidBounce website xd
         cover: "https://liquidbounce.net/img/logos/favicon.png",
         screenshots: ["https://liquidbounce.net/img/screenshots/clickgui-large.png", "https://liquidbounce.net/img/screenshots/hud-large.png", "https://liquidbounce.net/img/screenshots/xray-large.png", "https://liquidbounce.net/img/screenshots/main-menu-large.png"],
@@ -58,6 +61,7 @@ const clients = [
         price: "Free",
         tags: ["Free", "Forge"],
         game: "Minecraft",
+        update: "08.10.24",
         description: "FDP is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, FDP is completely free, open source and compatible with Forge. FDP is a fork of liquidbounce so you get the benefits of liquidbounce while still getting updates and support.",
         cover: "https://user-images.githubusercontent.com/105464811/177683437-8b768dcf-0e15-4ac4-85f0-2b673c2e8540.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/08/FDP-Client-Screenshots-2.jpg", "https://www.9minecraft.net/wp-content/uploads/2022/08/FDP-Client-Screenshots-9.jpg"],
@@ -75,6 +79,7 @@ const clients = [
         price: "Free",
         tags: ["Free"],
         game: "Minecraft",
+        update: "08.10.24",
         description: "Easy to use, powerful, and frequently updated. Millions of downloads and counting. Aristois offers over 100 in-game modules to extend and enhance your Minecraft gameplay. With a focus on PvE, we offer a modern and personlised experience — get it today! In addition to many unique modules and features, Aristois contains a worldwide in-game chat. Plan your next adventure and coordinate with players on other servers, right from the chat. The Aristois UI is designed with customisation in mind, so it can look exactly how you want it. We've also created two additional UIs to enhance speed and smoothness of enabling mods.",
         cover: "https://aristois.net/logo.webp",
         screenshots: ["https://aristois.net/features.webp"],
@@ -91,6 +96,7 @@ const clients = [
         price: "Free",
         tags: ["Free"],
         game: "Minecraft",
+        update: "08.10.24",
         description: "Based Minecraft utility mod.",
         cover: "https://meteorclient.com/icon.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/06/Meteor-Client-Mod-Screenshots-10.jpg"],
@@ -107,6 +113,7 @@ const clients = [
         price: "Free",
         tags: ["Free", "outdated"],
         game: "Minecraft",
+        update: "08.10.24",
         description: "Discover the Sigma and Jello merge , Sigma 5.0 including Jello for Sigma  for FREE , 1.16 to 1.8",
         cover: "https://avatars.githubusercontent.com/u/83773282?s=280&v=4",
         screenshots: ["https://i.ytimg.com/vi/0GwkNzz6wFc/maxresdefault.jpg", "https://cheater.fun/uploads/posts/2020-09/1600299856_prev.jpg"],
@@ -123,6 +130,7 @@ const clients = [
         price: "Free",
         tags: ["Free"],
         game: "Minecraft",
+        update: "08.10.24",
         description: "Raven B3 but better. No updates but still works on Hypixel with decent settings",
         cover: "https://avatars.githubusercontent.com/u/88325435?s=280&v=4",
         screenshots: ["https://i.ytimg.com/vi/J-MQASXPh9k/hqdefault.jpg"],
@@ -139,6 +147,7 @@ const clients = [
         price: "Free",
         tags: ["Free", "Forge"],
         game: "Minecraft",
+        update: "08.10.24",
         description: "Minecraft blockoverlay forge mod 1.8.9. Command: /blockoverlay",
         cover: "https://i.imgur.com/kCOTuHg.png",
         screenshots: ["https://i.imgur.com/6RGRgvc.png"],
@@ -157,6 +166,7 @@ const clients = [
         price: 'Free',
         tags: ['Free'],
         game: "GTA V",
+        update: "08.10.24",
         description: "GTA Cheat",
         cover: 'https://i.pinimg.com/originals/5b/ec/47/5bec474d275dbdf8fdb071f30fc978f4.png',
         screenshots: ["https://www.kiddionsmodmenu.com/img/12.jpg"],
@@ -173,6 +183,7 @@ const clients = [
         price: 'Free',
         tags: ['Free'],
         game: "Other Games",
+        update: "08.10.24",
         description: "AmongUS Cheat",
         cover: 'https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec',
         screenshots: ["https://data.exloader.net/webp_images/AmongUsMenu/replay.webp"],
@@ -223,9 +234,10 @@ function populateClients(filteredTag = "all") {
             }
 
             clientDiv.innerHTML = `
-                <img src="${client.cover}" alt="if you see this, firefox messed up (or bipas did lol yes dyslex skided this website)${client.name}">
+                <img src="${client.cover}" alt="if you see this DysLex Fuck somting up${client.name}">
                 <h2>${client.name}</h2>
                 <p>${client.game}</p>
+                <p>${client.update}</p>
                 <p>${client.price}</p>
                 <a href="client.html?id=${client.id}">View Client</a>
             `;

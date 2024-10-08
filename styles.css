@@ -54,7 +54,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem;
+    margin: 6rem;
 }
 
 .client { 
@@ -94,6 +94,7 @@ main {
 
 .client p {
     color: #383838;
+    margin: 0.5rem 0;
 }
 
 .client a {
