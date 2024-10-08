@@ -61,7 +61,7 @@ const clients = [
         description: "FDP is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, FDP is completely free, open source and compatible with Forge. FDP is a fork of liquidbounce so you get the benefits of liquidbounce while still getting updates and support.",
         cover: "https://user-images.githubusercontent.com/105464811/177683437-8b768dcf-0e15-4ac4-85f0-2b673c2e8540.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/08/FDP-Client-Screenshots-2.jpg", "https://www.9minecraft.net/wp-content/uploads/2022/08/FDP-Client-Screenshots-9.jpg"],
-        downloadLink: "https://lootdest.org/s?db52142d",
+        downloadLink: "https://loot-link.com/s?bd40bca5",
         otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: "#000000", // Text
@@ -78,7 +78,7 @@ const clients = [
         description: "Easy to use, powerful, and frequently updated. Millions of downloads and counting. Aristois offers over 100 in-game modules to extend and enhance your Minecraft gameplay. With a focus on PvE, we offer a modern and personlised experience — get it today! In addition to many unique modules and features, Aristois contains a worldwide in-game chat. Plan your next adventure and coordinate with players on other servers, right from the chat. The Aristois UI is designed with customisation in mind, so it can look exactly how you want it. We've also created two additional UIs to enhance speed and smoothness of enabling mods.",
         cover: "https://aristois.net/logo.webp",
         screenshots: ["https://aristois.net/features.webp"],
-        downloadLink: "https://lootdest.org/s?1384c193'",
+        downloadLink: "https://lootdest.org/s?395bc7ea",
         colors: {
             text: "#000000", // Text
             accent: "#000000", // Accent
@@ -94,7 +94,7 @@ const clients = [
         description: "Based Minecraft utility mod.",
         cover: "https://meteorclient.com/icon.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/06/Meteor-Client-Mod-Screenshots-10.jpg"],
-        downloadLink: "https://lootdest.org/s?6912fd22",
+        downloadLink: "https://lootdest.org/s?1acd68d3",
         colors: {
             text: "#000000", // Text
             accent: "#000000", // Accent
@@ -103,22 +103,6 @@ const clients = [
     },
     {
         id: 7,
-        name: 'Tarasande',
-        price: 'Free',
-        tags: ["Free" ,"Fabric"],
-        game: "Minecraft",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur explicabo ex maiores a odit sequi accusamus. Amet esse ad, at dolorem deserunt nostrum quo quaerat voluptatem, expedita provident excepturi.",
-        cover: 'https://github.com/Sumandora/tarasande/blob/1.20.4/src/main/resources/assets/tarasande/icon.png?raw=true',
-        screenshots: ["https://github.com/Sumandora/tarasande/blob/1.20.4/media/GUI.png?raw=true", "https://github.com/Sumandora/tarasande/blob/1.20.4/media/BedESP%20showcase.png?raw=true"],
-        downloadLink: 'https://loot-link.com/s?787211a2',
-        colors: {
-            text: "#000000", // Text
-            accent: "#000000", // Accent
-            header: "#000000" // Header
-        }
-    },
-    {
-        id: 8,
         name: "Sigma Jello",
         price: "Free",
         tags: ["Free", "outdated"],
@@ -126,23 +110,7 @@ const clients = [
         description: "Discover the Sigma and Jello merge , Sigma 5.0 including Jello for Sigma  for FREE , 1.16 to 1.8",
         cover: "https://avatars.githubusercontent.com/u/83773282?s=280&v=4",
         screenshots: ["https://i.ytimg.com/vi/0GwkNzz6wFc/maxresdefault.jpg", "https://cheater.fun/uploads/posts/2020-09/1600299856_prev.jpg"],
-        downloadLink: "https://lootdest.org/s?a0af6607",
-        colors: {
-            text: "#000000", // Text
-            accent: "#000000", // Accent
-            header: "#000000" // Header
-        }
-    },
-    {
-        id: 9,
-        name: "Chimera",
-        price: "Free",
-        tags: ["Free",],
-        game: "Minecraft",
-        description: "Cancer, but for Minecraft",
-        cover: "https://i.imgur.com/U1DDFbz.png",
-        screenshots: ["https://imgur.com/lsJpmua.jpg", "https://imgur.com/jEL2QWK.jpg", "https://imgur.com/QAzZNKe.jpg", "https://imgur.com/bG6FYEe.jpg"],
-        downloadLink: "https://lootdest.org/s?5d533527",
+        downloadLink: "https://lootdest.org/s?6e7c93d9",
         colors: {
             text: "#000000", // Text
             accent: "#000000", // Accent
@@ -156,7 +124,7 @@ const clients = [
         tags: ["Free", "Fabric",],
         game: "Minecraft",
         description: "Proof that not every IMGUI-ClickGUI looks ass",
-        cover: "https://github.com/Lyzev/Schizoid/blob/master/.idea/icon.png?raw=true",
+        cover: "https://github.com/Lyzev/Schizoid/b/master/.idea/icon.png?raw=true",
         screenshots: ["https://i.imgur.com/FiYgkID.png", "https://i.imgur.com/QceiFun.png"],
         downloadLink: "https://lootdest.org/s?2af3a3b1",
         colors: {
@@ -174,7 +142,7 @@ const clients = [
         description: "Raven B3 but better. No updates but still works on Hypixel with decent settings",
         cover: "https://avatars.githubusercontent.com/u/88325435?s=280&v=4",
         screenshots: ["https://i.ytimg.com/vi/J-MQASXPh9k/hqdefault.jpg"],
-        downloadLink: "https://loot-link.com/s?df8b360d",
+        downloadLink: "https://lootdest.org/s?6288ac6a",
         colors: {
             text: "#000000", // Text
             accent: "#000000", // Accent
@@ -190,7 +158,7 @@ const clients = [
         description: "Minecraft blockoverlay forge mod 1.8.9. Command: /blockoverlay",
         cover: "https://i.imgur.com/kCOTuHg.png",
         screenshots: ["https://i.imgur.com/6RGRgvc.png"],
-        downloadLink: "https://loot-link.com/s?71257f9b",
+        downloadLink: "https://lootdest.org/s?327e0b6a",
         otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: "#000000", // Text
