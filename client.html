@@ -24,7 +24,7 @@
     const clientId = parseInt(params.get("id"));
     const client = clients.find(p => p.id === clientId);
 
-    // Apply client colors and gradient background
+    // Apply client colors and gradient   background
     document.getElementById('clientHeader').style.borderBottomColor = client.colors.header;
     document.getElementById('clientTitle').style.color = client.colors.text;
     document.querySelector('.back-button').style.borderColor = client.colors.header;

@@ -98,7 +98,7 @@ main {
     border: 2px solid rgb(0, 0, 0);
     backdrop-filter: blur(10px);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    background-color: #8b8b8b70;
+    background-color: #86868670;
 }
 
 .details ul li:hover {

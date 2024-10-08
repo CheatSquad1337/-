@@ -118,22 +118,6 @@ const clients = [
         }
     },
     {
-        id: 10,
-        name: "Schizoid",
-        price: "Free",
-        tags: ["Free", "Fabric",],
-        game: "Minecraft",
-        description: "Proof that not every IMGUI-ClickGUI looks ass",
-        cover: "https://github.com/Lyzev/Schizoid/b/master/.idea/icon.png?raw=true",
-        screenshots: ["https://i.imgur.com/FiYgkID.png", "https://i.imgur.com/QceiFun.png"],
-        downloadLink: "https://lootdest.org/s?2af3a3b1",
-        colors: {
-            text: "#000000", // Text
-            accent: "#000000", // Accent
-            header: "#000000" // Header
-        }
-    },
-    {
         id: 11,
         name: "Raven B+",
         price: "Free",
