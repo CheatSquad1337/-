@@ -11,11 +11,6 @@ body {
     margin: 0;
     padding: 0;
     background-color:hsla(0,0%,100%,1);
-        background-image:
-        radial-gradient(at 91% 86%, hsla(243,100%,70%,1) 0px, transparent 70%),
-        radial-gradient(at 12% 13%, hsla(343,100%,76%,1) 0px, transparent 70%);
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 header {

@@ -1,26 +1,5 @@
 // Client data
-const presetColors = {
-        white: "#ffffff",
-        black: "#000000",
-        lime: "#00ff04",
-        pink: "#ff00f2",
-        purple: "#7700ff",
-        lightGray: "#b5b5b5",
-        gray: "#808080",
-        darkGray: "#3b3b3b",
-        red: "#ff0000",
-        orange: "#ff8400",
-        yellow: "#ffe600",
-        lightGreen: "#91ff00",
-        green: "#1aff00",
-        darkGreen: "#0e8a00",
-        turquoise: "#00ff8c",
-        lightBlue: "#00ffd9",
-        blue: "#0084ff",
-        darkBlue: "#0800ff",
-        darkPurple: "#2f0080",
-        darkRed: "#800000",
-    }
+
 
 const clients = [
         {
@@ -34,9 +13,9 @@ const clients = [
         screenshots: ["https://i.imgur.com/SpAxx1M.png"],
         downloadLink: "https://minecraft-clients.de/products/aqua-client-1",
         colors: {
-            text: presetColors.white, // Text
-            accent: presetColors.red, // Accent
-            header: presetColors.orange // Header
+            text: "#000000", // Text
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -52,8 +31,8 @@ const clients = [
         otherButtons:[["https://sourceforge.net/projects/processhacker/", "Process Hacker 2"]],
         colors: {
             text: "#000000", // Text
-            accent: "#36fff5", // Accent
-            header: "#f70cf0" // Header
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -69,8 +48,8 @@ const clients = [
         otherButtons:[["https://loot-link.com/s?55a3ed27", "SimpleBounce Theme"], ["https://www.youtube.com/watch?v=e2XqIRHpVOY", "Download Tutorial For Lunar"], ["https://liquidbounce.net/proxy", "LiquidProxy"]],
         colors: {
             text: "#000000", // Text
-            accent: "#0040ff", // Accent
-            header: "#0040ff" // Header
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -86,8 +65,8 @@ const clients = [
         otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: "#000000", // Text
-            accent: "#df5eff", // Accent
-            header: "#42bff5" // Header
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -102,8 +81,8 @@ const clients = [
         downloadLink: "https://lootdest.org/s?1384c193'",
         colors: {
             text: "#000000", // Text
-            accent: "#85a9ff", // Accent
-            header: "#d885ff" // Header
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -118,8 +97,8 @@ const clients = [
         downloadLink: "https://lootdest.org/s?6912fd22",
         colors: {
             text: "#000000", // Text
-            accent: "#9000ff", // Accent
-            header: "#ca85ff" // Header
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -133,9 +112,9 @@ const clients = [
         screenshots: ["https://github.com/Sumandora/tarasande/blob/1.20.4/media/GUI.png?raw=true", "https://github.com/Sumandora/tarasande/blob/1.20.4/media/BedESP%20showcase.png?raw=true"],
         downloadLink: 'https://loot-link.com/s?787211a2',
         colors: {
-            text: presetColors.white, // Text
-            accent: presetColors.pink, // Accent
-            header: presetColors.purple // Header
+            text: "#000000", // Text
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -150,8 +129,8 @@ const clients = [
         downloadLink: "https://lootdest.org/s?a0af6607",
         colors: {
             text: "#000000", // Text
-            accent: presetColors.lightGray, // Accent 
-            header: presetColors.blue // Header
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -165,9 +144,9 @@ const clients = [
         screenshots: ["https://imgur.com/lsJpmua.jpg", "https://imgur.com/jEL2QWK.jpg", "https://imgur.com/QAzZNKe.jpg", "https://imgur.com/bG6FYEe.jpg"],
         downloadLink: "https://lootdest.org/s?5d533527",
         colors: {
-            text: presetColors.white, // Text
-            accent: presetColors.blue, // Accent
-            header: presetColors.darkPurple // Header
+            text: "#000000", // Text
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -181,9 +160,9 @@ const clients = [
         screenshots: ["https://i.imgur.com/FiYgkID.png", "https://i.imgur.com/QceiFun.png"],
         downloadLink: "https://lootdest.org/s?2af3a3b1",
         colors: {
-            text: presetColors.white, // Text
-            accent: presetColors.green, // Accent
-            header: presetColors.pink // Header
+            text: "#000000", // Text
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -197,9 +176,9 @@ const clients = [
         screenshots: ["https://i.ytimg.com/vi/J-MQASXPh9k/hqdefault.jpg"],
         downloadLink: "https://loot-link.com/s?df8b360d",
         colors: {
-            text: presetColors.darkGray, // Text
-            accent: presetColors.purple, // Accent
-            header: presetColors.pink // Header
+            text: "#000000", // Text
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -214,9 +193,9 @@ const clients = [
         downloadLink: "https://loot-link.com/s?71257f9b",
         otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
-            text: presetColors.white, // Text
-            accent: presetColors.lightBlue, // Accent
-            header: presetColors.pink // Header
+            text: "#000000", // Text
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     // GTA and shit
@@ -231,9 +210,9 @@ const clients = [
         screenshots: ["https://www.kiddionsmodmenu.com/img/12.jpg"],
         downloadLink: 'https://lootdest.org/s?abf9416d',
         colors: {
-            text: "#ffffff", // Text
-            accent: "#00bf2d", // Accent
-            header: "#009fbf" // Header
+            text: "#000000", // Text
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
     {
@@ -247,9 +226,9 @@ const clients = [
         screenshots: ["https://data.exloader.net/webp_images/AmongUsMenu/replay.webp"],
         downloadLink: 'https://lootdest.org/s?3a4fc08e',
         colors: {
-            text: "#ffffff", // Text
-            accent: "#00bf2d", // Accent
-            header: "#009fbf" // Header
+            text: "#000000", // Text
+            accent: "#000000", // Accent
+            header: "#000000" // Header
         }
     },
 ];
