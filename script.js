@@ -239,7 +239,7 @@ function populateClients(filteredTag = "all") {
                 <p>${client.game}</p>
                 <p>${client.update}</p>
                 <p>${client.price}</p>
-                <a href="client.html?id=${client.id}">View Client</a>
+                <a href="client.html?id=${client.id}">Download</a>
             `;
             clientList.appendChild(clientDiv);
         }
