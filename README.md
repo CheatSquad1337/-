@@ -13,3 +13,6 @@ Profesional coding (skided from bipass)
 - habe bipas gefragt ob ich sciden darf noch keine antwort beckommen
 
 - habe das ui angepast par sachen geändert
+
+18.11.2024
++ improft head bar and a litle bit the styl
