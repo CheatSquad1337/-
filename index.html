@@ -9,20 +9,22 @@
 </head>
 <body>
     <header>
-        <div>
-            <label for="gameFilter">Filter by game:</label>
-            <select id="gameFilter" onchange="filterClients()">
-                <option value="all">All</option>
-            </select>
+        <div class="header-container">
+            <img src="https://raw.githubusercontent.com/CheatSquad1337/-/refs/heads/main/Header%20Logo.png" alt="CheatSquad Logo" class="header-logo">
+            <div class="header-controls">
+                <label for="gameFilter">Filter by game:</label>
+                <select id="gameFilter" onchange="filterClients()">
+                    <option value="all">All</option>
+                </select>
 
-            <label for="tagFilter">Filter by tag:</label>
-            <select id="tagFilter" onchange="filterClients()">
-                <option value="all">All</option>
-            </select>
+                <label for="tagFilter">Filter by tag:</label>
+                <select id="tagFilter" onchange="filterClients()">
+                    <option value="all">All</option>
+                </select>
 
-            <button id="toggleOutdated" onclick="toggleOutdatedClients()">Hide Outdated</button>
+                <button id="toggleOutdated" onclick="toggleOutdatedClients()">Hide Outdated</button>
+            </div>
         </div>
-
     </header>
 
     <main id="clientList">

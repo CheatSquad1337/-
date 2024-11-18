@@ -63,6 +63,7 @@
             <div class="details">
                 <h2>${client.name}</h2>
                 <p>Price: ${client.price}</p>
+                 <p>update: ${client.update}</p>
                 <p>${client.description}</p>
                 <h3>Tags:</h3>
                 <ul>${client.tags.map(tag => `<li style="border-color: ${client.colors.accent};">${tag}</li>`).join('')}</ul>
