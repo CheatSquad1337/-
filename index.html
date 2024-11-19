@@ -12,35 +12,85 @@
         <div class="header-container">
             <img src="https://i.imgur.com/amfiNfF.png" alt="CheatSquad Logo" class="header-logo">
             <div class="header-controls">
-                <label for="gameFilter">Filter by game:</label>
-                <select id="gameFilter" onchange="filterClients()">
-                    <option value="all">All</option>
-                </select>
-
                 <label for="tagFilter">Filter by tag:</label>
                 <select id="tagFilter" onchange="filterClients()">
                     <option value="all">All</option>
                 </select>
-
                 <button id="toggleOutdated" onclick="toggleOutdatedClients()">Hide Outdated</button>
             </div>
         </div>
     </header>
 
-    <main id="clientList">
-        <!-- Client items will be injected here by JavaScript -->
-    </main>
+    <!-- Banner-Bereich -->
+    <section class="banner"></section>
 
-    <script src="script.js"></script>
+    <!-- Spiele-Buttons -->
+    <section class="games-container">
+        <div class="game-button" onclick="filterClients('minecraft')">
+            <img src="https://i.imgur.com/U21gnzr.jpeg" alt="Minecraft">
+            <span>Minecraft</span>
+        </div>
+        <div class="game-button" onclick="filterClients('cs2')">
+            <img src="https://i.imgur.com/uDNYCSH.jpeg" alt="CS2">
+            <span>CS2</span>
+        </div>
+        <div class="game-button" onclick="filterClients('roblox')">
+            <img src="https://i.imgur.com/Pl1uCrD.jpeg" alt="Roblox">
+            <span>Roblox</span>
+        </div>
+        <div class="game-button" onclick="filterClients('gta-v')">
+            <img src="https://i.imgur.com/SYz27Mg.jpeg" alt="GTA V">
+            <span>GTA V</span>
+        </div>
+        <div class="game-button" onclick="filterClients('krunker-io')">
+            <img src="https://i.imgur.com/F90gfC3.jpeg" alt="Krunker.IO">
+            <span>Krunker.IO</span>
+        </div>
+        <div class="game-button" onclick="filterClients('valorant')">
+            <img src="https://i.imgur.com/WV3qDpw.jpeg" alt="Valorant">
+            <span>Valorant</span>
+        </div>
+        <div class="game-button" onclick="filterClients('fortnite')">
+            <img src="https://i.imgur.com/Ekl3tcX.jpeg" alt="Fortnite">
+            <span>Fortnite</span>
+        </div>
+        <div class="game-button" onclick="filterClients('among-us')">
+            <img src="https://i.imgur.com/GdfZUmZ.jpeg" alt="Among Us">
+            <span>Among Us</span>
+        </div>
+        <div class="game-button" onclick="filterClients('gmod')">
+            <img src="https://i.imgur.com/ZI7k5rL.jpeg" alt="Garry's Mod">
+            <span>Garry's Mod</span>
+        </div>
+        <div class="game-button" onclick="filterClients('apex-legends')">
+            <img src="https://i.imgur.com/IaAUWUK.jpeg" alt="Apex Legends">
+            <span>Apex Legends</span>
+        </div>
+        <div class="game-button" onclick="filterClients('team-fortress-2')">
+            <img src="https://i.imgur.com/KCCyeI9.jpeg" alt="Team Fortress 2">
+            <span>Team Fortress 2</span>
+        </div>
+        <div class="game-button" onclick="filterClients('more-cheats')">
+            <img src="https://i.imgur.com/7yUL4Fh.jpeg" alt="More Cheats">
+            <span>More Cheats</span>
+        </div>
+    </section>
+
     <script>
-        const titles = ["CheatSquad.gg", "Sry Real Cheatsquad is down", "Your CheatSquad Team<3"];
-
-        function changeTabTitle() {
-            const randomTitle = titles[Math.floor(Math.random() * titles.length)];
-            document.title = randomTitle;
+        function filterClients(game) {
+            const clients = document.querySelectorAll('.client');
+            clients.forEach(client => {
+                if (game === 'all' || client.dataset.game === game) {
+                    client.style.display = 'block';
+                } else {
+                    client.style.display = 'none';
+                }
+            });
         }
 
-        setInterval(changeTabTitle, 3005);
+        function toggleOutdatedClients() {
+            // Funktion zum Ausblenden veralteter Clients
+        }
     </script>
 </body>
 </html>
