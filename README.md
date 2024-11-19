@@ -16,3 +16,6 @@ Profesional coding (skided from bipass)
 
 18.11.2024
 + improft head bar and a litle bit the styl
+
+20.11.2024
++ improft ui looks now mutch more like the original cheat squad website (Fick dich alex du hund)
