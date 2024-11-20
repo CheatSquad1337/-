@@ -20,7 +20,7 @@
             </div>
         </div>
     </header>
-
+    
     <!-- Spiele-Buttons -->
     <section class="games-container">
         <div class="game-button">
@@ -91,27 +91,38 @@
         </div>
 		<div class="game-button">
             <a href="/more-cheats">
-                <img src="https://i.imgur.com/KCCyeI9.jpeg" alt="More Cheats">
+                <img src="https://i.imgur.com/7yUL4Fh.jpeg" alt="More Cheats">
                 <span>More Cheats</span>
             </a>
         </div>
     </section>
+    
+     <section id="categories-container">
+         <div class="ad-space-b"></div> <!-- Platz für Werbung -->
+        <div id="all-cheats-section">
+            <h2 class="section-title">All Cheats</h2>
+            <div class="cheats-grid"></div>
+        </div>
+        <div class="ad-space"></div> <!-- Platz für Werbung -->
 
-    <script>
-        function filterClients(game) {
-            const clients = document.querySelectorAll('.client');
-            clients.forEach(client => {
-                if (game === 'all' || client.dataset.game === game) {
-                    client.style.display = 'block';
-                } else {
-                    client.style.display = 'none';
-                }
-            });
-        }
+        <div id="best-section">
+            <h2 class="section-title">Best</h2>
+            <div class="cheats-grid"></div>
+        </div>
+        <div class="ad-space"></div> <!-- Platz für Werbung -->
 
-        function toggleOutdatedClients() {
-            // Funktion zum Ausblenden veralteter Clients
-        }
-    </script>
+        <div id="rage-section">
+            <h2 class="section-title">Rage</h2>
+            <div class="cheats-grid"></div>
+        </div>
+        <div class="ad-space"></div> <!-- Platz für Werbung -->
+
+        <div id="legit-section">
+            <h2 class="section-title">Legit</h2>
+            <div class="cheats-grid"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>

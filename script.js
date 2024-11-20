@@ -6,7 +6,7 @@ const clients = [
         id: 1,
         name: "Aqua",
         price: "15€",
-        tags: ["Blatant", "Paid"],
+        tags: ["Best", "Rage"],
         game: "Minecraft",
         update: "08.10.24",
         description: "Holy Moly its Aqua A Realy nice Blatant/legit client and it get rigt now a recode",
