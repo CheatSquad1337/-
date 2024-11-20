@@ -15,25 +15,14 @@ const clients = [
 // Render cheats by tags
 function renderCheats() {
     const allCheatsSection = document.querySelector("#all-cheats-section .cheats-grid");
-    const bestSection = document.querySelector("#best-section .cheats-grid");
-    const rageSection = document.querySelector("#rage-section .cheats-grid");
-    const legitSection = document.querySelector("#legit-section .cheats-grid");
 
     allCheatsSection.innerHTML = "";
-    bestSection.innerHTML = "";
-    rageSection.innerHTML = "";
-    legitSection.innerHTML = "";
 
     clients.forEach((client) => {
         const card = createCheatCard(client);
 
         // Add to "All Cheats"
         allCheatsSection.appendChild(card.cloneNode(true));
-
-        // Add to specific categories based on tags
-        if (client.tags.includes("Best")) bestSection.appendChild(card.cloneNode(true));
-        if (client.tags.includes("Rage")) rageSection.appendChild(card.cloneNode(true));
-        if (client.tags.includes("Legit")) legitSection.appendChild(card.cloneNode(true));
     });
 }
 
