@@ -55,7 +55,7 @@ header {
 /* Cheats Grid */
 .cheats-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); /* 4 Karten pro Reihe */
     gap: 20px;
     margin-bottom: 40px;
 }
@@ -63,12 +63,50 @@ header {
 /* Cheat Card */
 .cheat-card {
     background: #f5f5f5;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease;
+    width: 100%; /* Stellt sicher, dass die Karten gleichmäßig im Grid verteilt sind */
+    height: 355px; /* Feste Höhe für die Karten */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* Hover-Effekt */
+.cheat-card:hover {
+    transform: translateY(-5px);
+}
+/* Cheat Card Image */
+.cheat-card img {
+    width: 100%;
+    height: 150px; /* Feste Höhe für das Bild */
+    object-fit: cover; /* Bild füllt den Bereich ohne Verzerrung */
+}
+
+/* Titel der Cheat Card */
+.cheat-card h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 0 10px;
+    white-space: nowrap; /* Kein Zeilenumbruch */
+    overflow: hidden; /* Überschüssiger Text wird abgeschnitten */
+    text-overflow: ellipsis; /* Zeigt "..." bei Überlänge an */
+}
+
+/* Cheat Card Beschreibung */
+.cheat-card p {
+    font-size: 14px;
+    color: #555;
+    padding: 0 10px;
+    margin: 0 auto;
+    line-height: 1.5;
+    overflow: hidden; /* Text, der den Bereich überschreitet, wird abgeschnitten */
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Maximal 2 Zeilen */
+    -webkit-box-orient: vertical; /* Vertikales Layout */
 }
 
 .cheat-card:hover {
@@ -91,16 +129,33 @@ header {
     font-size: 14px;
     color: #555;
 }
-/*der download button (btn)*/
+/* Download-Button */
 .cheat-card a {
     display: inline-block;
-    margin: 10px;
-    padding: 10px 100px;
+    margin: 10px auto;
+    padding: 10px 80px; /* Breite des Buttons angepasst */
     background: #4CAF50;
     color: #fff;
-    border-radius: 10px;
+    border-radius: 5px;
     text-decoration: none;
     font-size: 14px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+.cheat-card a:hover {
+    background: #45a049;
+}
+
+@media (max-width: 768px) {
+    .cheats-grid {
+        grid-template-columns: repeat(1, 0.6fr); /* 2 Karten pro Zeile */
+    }
+}
+
+@media (max-width: 480px) {
+    .cheats-grid {
+        grid-template-columns: 1fr; /* 1 Karte pro Zeile */
+    }
 }
 
 /* Ad Space */
@@ -180,3 +235,4 @@ header {
     font-weight: bold;
     pointer-events: none; /* Text bleibt nicht anklickbar */
 }
+

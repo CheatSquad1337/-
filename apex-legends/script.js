@@ -2,9 +2,8 @@ const clients = [
     {
         id: 1,
         name: "No cheats",
-        description: "Sry there are no free cheats for Valorant",
-        cover: "",
-        downloadLink: "",
+        description: "Sry there are no cheats for pc only for mobile phone",
+
     },
 ];
 
